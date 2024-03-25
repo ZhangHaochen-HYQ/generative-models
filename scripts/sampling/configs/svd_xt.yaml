@@ -132,7 +132,7 @@ model:
             video_kernel_size: [3, 1, 1]
 
     sampler_config:
-      target: sgm.modules.diffusionmodules.sampling.EDMSampler1
+      target: sgm.modules.diffusionmodules.sampling.EDMSampler
       params:
         discretization_config:
           target: sgm.modules.diffusionmodules.discretizer.EDMDiscretization
